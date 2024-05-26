@@ -1,0 +1,24 @@
+meta {
+  name: Create A Project
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}project
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "StartDate": "2016-06-03T23:15:33.008Z",
+    "Deadline": "2016-06-03T23:15:33.008Z",
+    "Name": "Ios Project",
+    "Status": "InProgress",
+    "Priority": "Medium",
+    "OwnerId": "8b9c612b-1d88-49d7-9d9e-e84a22edea6d",
+    "Description": "string",
+    "ProjectIcon": "string"
+  }
+}

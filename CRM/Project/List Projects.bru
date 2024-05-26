@@ -1,0 +1,16 @@
+meta {
+  name: List Projects
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}project?currentPage=1&sortBy=CreatedAt
+  body: none
+  auth: none
+}
+
+query {
+  currentPage: 1
+  sortBy: CreatedAt
+}

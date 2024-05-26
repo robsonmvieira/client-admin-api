@@ -1,0 +1,102 @@
+# Ignore .NET build results
+bin/
+obj/
+out/
+
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Avoid ignoring files in NuGet package directories
+!packages/build/
+!packages/nuget/
+!packages/repositories.config
+
+# Ignore NuGet packages folder
+packages/
+*.nupkg
+*.snupkg
+
+# Ignore auto-generated files (like by Visual Studio)
+*.sln.ide
+*.sln.pkg
+*.sln.logs
+
+# Ignore Rider project files
+.idea/
+
+# Ignore other configuration files
+.DS_Store
+Thumbs.db
+*.class
+
+# Ignore configuration files
+appsettings.json
+appsettings.*.json
+secret.config
+
+# Ignore user secrets
+secrets.json
+
+# Ignore logs and crash reports
+*.log
+crash-reports/
+
+# Ignore test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.coveragejson
+
+# Ignore build outputs and artifacts
+artifacts/
+
+# Ignore StyleCop configuration
+stylecop.json
+
+# Ignore temporary files created by dotnet SDK
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore ReSharper settings
+_ReSharper*
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+resharper.xml
+
+# Ignore Azure DevOps artifacts
+.azdo/
+*.coverage
+*.codecoverage
+*.log
+
+# Ignore JetBrains Rider settings
+.idea/
+
+# Ignore Rider plugin files
+*.rider.*
+
+# Ignore Web related files
+node_modules/
+wwwroot/
+
+# Ignore NPM files
+package-lock.json
+yarn.lock
+
+# Ignore EF migrations and snapshot files
+Migrations/
+Snapshot/
+
+# Ignore various IDE files
+*.sln.iml
+.idea/
+.vscode/
+.history
